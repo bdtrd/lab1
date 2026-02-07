@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="pfp_sizes">200dp</dimen>
+    <dimen name="pfp_rounding">100dp</dimen>
+    <dimen name="header_padding">20dp</dimen>
+    <dimen name="header_padding_horizontal">30dp</dimen>
+    <dimen name="subheader_padding">12dp</dimen>
+    <dimen name="subheader_spacing">4dp</dimen>
+
+    <dimen name="header_text">22sp</dimen>
+    <dimen name="subheader_text">14sp</dimen>
+    <dimen name="contact_text">14sp</dimen>
+</resources>
