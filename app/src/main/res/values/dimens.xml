@@ -2,6 +2,8 @@
 <resources>
     <dimen name="pfp_sizes">200dp</dimen>
     <dimen name="pfp_rounding">100dp</dimen>
+    <dimen name="pfp_sizes_big">400dp</dimen>
+    <dimen name="pfp_rounding_big">200dp</dimen>
     <dimen name="header_padding">20dp</dimen>
     <dimen name="header_padding_horizontal">30dp</dimen>
     <dimen name="subheader_padding">12dp</dimen>
@@ -10,4 +12,8 @@
     <dimen name="header_text">22sp</dimen>
     <dimen name="subheader_text">14sp</dimen>
     <dimen name="contact_text">14sp</dimen>
+    <dimen name="header_text_big">40sp</dimen>
+    <dimen name="subheader_text_big">28sp</dimen>
+    <dimen name="contact_text_big">28sp</dimen>
+    <dimen name="header_padding_horizontal_big">60dp</dimen>
 </resources>
