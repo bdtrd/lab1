@@ -10,19 +10,19 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintVertical_bias="0.1">
+        app:layout_constraintVertical_bias="0.2">
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/materialCardView"
-            android:layout_width="@dimen/pfp_sizes"
-            android:layout_height="@dimen/pfp_sizes"
-            app:cardCornerRadius="@dimen/pfp_rounding">
+            android:layout_width="@dimen/pfp_sizes_big"
+            android:layout_height="@dimen/pfp_sizes_big"
+            app:cardCornerRadius="@dimen/pfp_rounding_big">
 
             <ImageView
                 android:id="@+id/imageView2"
@@ -32,37 +32,46 @@
                 app:srcCompat="@drawable/pfp" />
         </com.google.android.material.card.MaterialCardView>
 
-        <TextView
-            android:id="@+id/name"
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/header_padding"
-            android:fontFamily="monospace"
-            android:text="@string/name"
-            android:textSize="@dimen/header_text"
-            android:textColor="@color/black"
-            android:textAlignment="center" />
+            android:layout_marginStart="@dimen/header_padding_horizontal_big"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
 
-        <TextView
-            android:id="@+id/occupation"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/subheader_padding"
-            android:fontFamily="sans-serif-medium"
-            android:text="@string/occupation"
-            android:textSize="@dimen/subheader_text"
-            android:textColor="@color/grey"
-            android:textAlignment="center" />
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/header_padding"
+                android:fontFamily="monospace"
+                android:text="@string/name"
+                android:textSize="@dimen/header_text_big"
+                android:textColor="@color/black"
+                android:textAlignment="center" />
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/subheader_spacing"
-            android:fontFamily="sans-serif-medium"
-            android:text="@string/group"
-            android:textSize="@dimen/subheader_text"
-            android:textColor="@color/grey"/>
+            <TextView
+                android:id="@+id/occupation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/subheader_padding"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/occupation"
+                android:textSize="@dimen/subheader_text_big"
+                android:textColor="@color/grey"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/subheader_spacing"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/group"
+                android:textSize="@dimen/subheader_text_big"
+                android:textColor="@color/grey"/>
+
+        </LinearLayout>
 
     </LinearLayout>
 
@@ -81,7 +90,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/email"
-            android:textSize="@dimen/contact_text"
+            android:textSize="@dimen/contact_text_big"
             android:fontFamily="monospace"
             android:textColor="@color/grey" />
 
@@ -89,7 +98,7 @@
             android:id="@+id/telegram"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="@dimen/contact_text"
+            android:textSize="@dimen/contact_text_big"
             android:text="@string/telegram"
             android:fontFamily="monospace"
             android:textColor="@color/grey" />

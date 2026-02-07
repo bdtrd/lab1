@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">lab1</string>
+    <string name="app_name">Business Card</string>
+    <string name="name">Izhboldin Nikolai</string>
+    <string name="group">B23-191-1</string>
+    <string name="email" translatable="false">nikolaj.izhboldin@gmail.com</string>
+    <string name="telegram" translatable="false">\@breadt</string>
+    <string name="occupation">Student, cat lover</string>
 </resources>
